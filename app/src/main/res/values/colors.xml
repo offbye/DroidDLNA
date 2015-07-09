@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <color name="txt_blue">#FF007CB0</color>
+    <color name="txt_gray">#FF575756</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="txt_orange">#FFEB6100</color>
+    <color name="bg_gray">#FFE3E3E7</color>
+    <color name="orange">#FFE84E0E</color>
+    <color name="transparent">#000000</color>
+    <color name="bg">#FFF39200</color>
+    <color name="lightblue">#FF007AA2</color>
+    <color name="lightorange">#FFACBA00</color>
+    <color name="red">#FFFF0000</color>
+    <color name="transparentdarkgray">#CC292929</color>
+    <color name="transparentgray">#CC666666</color>
+    <color name="yellow">#ff9933</color>
+    <color name="gray">#ff333333</color>
+    <color name="light_blue">#5CACEE</color>
+    <color name="light_gray">#87CEEB</color>
+    <color name="orange_red">#613030</color>
+    <color name="whiteGray">#ffC9CACB</color>
+    <color name="nomalGray">#838B83</color>
+    <color name="blue">#436EEE</color>
+    <color name="light_orange">#FFFCBA00</color>
+    <color name="coffee">#622f1b</color>
+    <color name="black2">#80000000</color>
+    <color name="click_color">#2b72d6</color>
+    <color name="buttom_top">#1e1e1e</color>
+    <color name="buttom_centre">#303030</color>
+    <color name="buttom_buttom">#000000</color>
+    <color name="actionbarwatson_item_focused">#ff6899ff</color>
+    <color name="darkorange">#fff88017</color>
+    <color name="tab_translucent">#80000000</color>
+    <color name="notification_translucent">#40000000</color>
+    <color name="bottom">#877F7D</color>
+    <color name="bg_white">#f1f1f1</color>
+    <color name="bg_white_deep">#AC9FA0</color>
+    <color name="text_black">#575351</color>
+    <color name="black_transparent">#aa000000</color>
+    <color name="text_gray">#575351</color>
+    <color name="list_select">#e7e4e2</color>
+    <color name="black_wx_bg">#252D31</color>
+    <color name="bg_wx_middle">#f8f8f8</color>
+    <color name="gray_comment_bg">#D4D4D4</color>
+
+    <!-- listview -->
+    <color name="listview_top_line">#E1E1E1</color>
+    <color name="listview_bottom_line">#BCBCBC</color>
+    <color name="listview_top_line_old">#e8e8e8</color>
+    <color name="listview_bottom_line_old">#9f9e9e</color>
+
+</resources>

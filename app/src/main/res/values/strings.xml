@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="appName">Droid DLNA</string>
+    <string name="deviceDetails">device details</string>
+    <string name="searchLAN">search network</string>
+    <string name="switchRouter">switch network route</string>
+    <string name="toggleDebugLogging">switch debug logging</string>
+    <string name="OK">OK</string>
+    <string name="searchingLAN">searching Upnp devices on network&#8230;</string>
+    <string name="enablingRouter">Enabling network router&#8230;</string>
+    <string name="disablingRouter">Disabling network router&#8230;</string>
+    <string name="errorSwitchingRouter">Error switching router: </string>
+    <string name="enablingDebugLogging">Enabling debug logging&#8230;</string>
+    <string name="disablingDebugLogging">Disabling debug logging&#8230;</string>
+    <string name="deviceDetailsNotYetAvailable">Device details are being discovered, please wait.</string>
+    <string name="search_lan">search devices</string>
+    <string name="toggle_debug_logging">Toggle debug logging</string>
+    <string name="searching_lan">searching Upnp devices on network&#8230;</string>
+    <string name="enabling_debug_logging">Enabling debug logging&#8230;</string>
+    <string name="disabling_debug_logging">Disabling debug logging&#8230;</string>
+    <string name="registering_demo_device">Registering UPnP device&#8230;</string>
+    <string name="create_demo_failed">Creating of device failed, check the log!</string>
+    <string name="sear_dmr">Find DMR</string>
+    <string name="dialog_wait_msg">Loading&#8230;</string>
+    <string name="player_play_msg">play</string>
+    <string name="player_pause_msg">pause</string>
+    <string name="ip_get_fail">fail to get IP</string>
+
+    <!-- tab -->
+    <string name="device">device</string>
+    <string name="content">content</string>
+    <string name="control">console</string>
+    <string name="setting">setting</string>
+
+    <!-- control -->
+    <string name="not_select_dev">choose device</string>
+    <string name="get_data_err">fail to get data，try again</string>
+    <string name="conn_err">fail to get connection</string>
+    <string name="min_voc">already lowest voice</string>
+    <string name="media_name_def">media name</string>
+    <string name="media_name_brief">media introduction</string>
+    <string name="media_init_time">00:00:00</string>
+    <string name="media_play_err">fail to play</string>
+
+    <!-- device -->
+    <string name="device_msg">media content service</string>
+    <string name="dmr_msg">player</string>
+    <string name="exit">press again to exit application</string>
+
+    <!-- imageDispaly -->
+    <string name="io_error">IO error</string>
+    <string name="decoding_error">error with decoding pictures</string>
+    <string name="network_denied">poor network</string>
+    <string name="oom_error">fail to load picture for it is too big</string>
+    <string name="unknown_error">unknown error</string>
+    <string name="info_first_image">already the first picture</string>
+    <string name="info_last_image">already the last picture</string>
+    <string name="info_image_slide_start">begin playing picture slides</string>
+    <string name="info_image_slide_pause">pause playing picture slides</string>
+    <string name="info_download_image">already download picture to</string>
+    <string name="info_download_image_error">fail to save picture</string>
+    <string name="info_share_image">share picture</string>
+
+    <!-- player -->
+    <string name="player_bt_return">return</string>
+    <string name="player_exit">press again to exit player</string>
+
+    <!-- setting -->
+    <string name="about_app">version 2.0.0</string>
+    <string name="open_msg">on</string>
+    <string name="off_msg">off</string>
+    <string name="share_content">share media content</string>
+    <string name="share_content_on">start sharing content， other devices can check local media files with DLNA/Upnp protocols</string>
+    <string name="share_content_off">stop sharing content， other devices can not check local media files with DLNA/Upnp protocols</string>
+    <string name="share_content_setting">set media content sharing</string>
+    <string name="share_content_setting_breif">share content you prefer with families and friends</string>
+    <string name="device_name">device name</string>
+    <string name="dms_name">media server name</string>
+    <string name="dms_name_breif">you can find local media server name on other devices</string>
+    <string name="device_local">DroidDLNA Media Server</string>
+    <string name="player">media player</string>
+    <string name="player_on">start local player service， other devices can push media files to local device</string>
+    <string name="player_off">stop local player service， other devices can not push media files to local device</string>
+    <string name="player_name">player name</string>
+    <string name="player_name_breif">you can find local media player name on other devices</string>
+    <string name="player_name_local">DroidDLNA Local Render</string>
+    <string name="net_setting">network setting</string>
+    <string name="net_setting_breif">set and manage wireless network access points</string>
+    <string name="slideshow">slide</string>
+    <string name="slideshow_breif">set intervals of playing slide</string>
+    <string name="thumbnails">zoom icon</string>
+    <string name="thumbnails_breif">hide zooming icon</string>
+    <string name="setting_msg">setting</string>
+    <string name="about_brief">DroidDLNA is a full featured UPnP/DLNA Control Point, UPnP Media Renderer and UPnP Media Server. This app is based on Cling 2.0, Cling is a UPnP-compatible software stack for Java environments.\n Play easily your music, videos and images on your phone and devices on your network (DLNA TVs, XBMC, WMP, ...), from your external UPnP Media Servers. Play your phone/tablet media to those devices.</string>
+
+    <!-- Menu -->
+    <string name="menu_exit">exit</string>
+
+</resources>

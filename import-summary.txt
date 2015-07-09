@@ -1,0 +1,82 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* .idea/
+* .idea/.name
+* .idea/DroidDLNA.iml
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* ic_launcher-web.png
+* msi.keystore
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* libs/cdi-api.jar => app/libs/cdi-api.jar
+* libs/http-2.2.1.jar => app/libs/http-2.2.1.jar
+* libs/httpclient-4.2.2.jar => app/libs/httpclient-4.2.2.jar
+* libs/httpcore-4.2.3.jar => app/libs/httpcore-4.2.3.jar
+* libs/javax.annotation_1.0.jar => app/libs/javax.annotation_1.0.jar
+* libs/javax.inject.jar => app/libs/javax.inject.jar
+* libs/javax.servlet-3.0.0.v201103241009.jar => app/libs/javax.servlet-3.0.0.v201103241009.jar
+* libs/jetty-client-8.1.9.v20130131.jar => app/libs/jetty-client-8.1.9.v20130131.jar
+* libs/jetty-continuation-8.1.9.v20130131.jar => app/libs/jetty-continuation-8.1.9.v20130131.jar
+* libs/jetty-http-8.1.9.v20130131.jar => app/libs/jetty-http-8.1.9.v20130131.jar
+* libs/jetty-io-8.1.9.v20130131.jar => app/libs/jetty-io-8.1.9.v20130131.jar
+* libs/jetty-security-8.1.9.v20130131.jar => app/libs/jetty-security-8.1.9.v20130131.jar
+* libs/jetty-server-8.1.9.v20130131.jar => app/libs/jetty-server-8.1.9.v20130131.jar
+* libs/jetty-servlet-8.1.9.v20130131.jar => app/libs/jetty-servlet-8.1.9.v20130131.jar
+* libs/jetty-util-8.1.9.v20130131.jar => app/libs/jetty-util-8.1.9.v20130131.jar
+* libs/seamless-http-1.0-alpha2.jar => app/libs/seamless-http-1.0-alpha2.jar
+* libs/seamless-util-1.0-alpha2.jar => app/libs/seamless-util-1.0-alpha2.jar
+* libs/seamless-xml-1.0-alpha2.jar => app/libs/seamless-xml-1.0-alpha2.jar
+* libs/slf4j-api-1.6.1.jar => app/libs/slf4j-api-1.6.1.jar
+* libs/slf4j-jdk14-1.6.1.jar => app/libs/slf4j-jdk14-1.6.1.jar
+* libs/universal-image-loader-1.8.4-with-sources.jar => app/libs/universal-image-loader-1.8.4-with-sources.jar
+* lint.xml => app/lint.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

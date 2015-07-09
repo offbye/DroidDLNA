@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="entries_slidetime">
+        <item>5秒</item>
+        <item>7秒</item>
+        <item>10秒</item> 
+        <item>15秒</item>
+        <item>30秒</item>   
+    </string-array>
+    <string-array name="entryvalues_slidetime">
+        <item>5</item>
+        <item>7</item>
+        <item>10</item> 
+        <item>15</item>
+        <item>30</item>   
+    </string-array>
+    
+    <string-array name="entries_media">
+        <item>Image</item>
+        <item>Video</item>
+        <item>Music</item> 
+    </string-array>
+    <string-array name="entryvalues_media">
+        <item>image</item>
+        <item>video</item>
+        <item>music</item> 
+    </string-array>
+  
+</resources>

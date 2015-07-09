@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+	<translate android:fromXDelta="0" android:toXDelta="-100%p"
+		android:duration="500" />
+</set>
+<!-- From: file:/Users/zhangxitao/AndroidstudioProjects/DroidDLNA/app/src/main/res/anim/push_left_out.xml -->

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/zhangxitao/AndroidstudioProjects/DroidDLNA/app/src/main/res/values-zh-rCN/arrays.xml -->
+    <eat-comment/>
+    <string-array name="entries_media">
+        <item>图片</item>
+        <item>视频</item>
+        <item>音乐</item> 
+    </string-array>
+    <string-array name="entries_slidetime">
+        <item>5秒</item>
+        <item>7秒</item>
+        <item>10秒</item> 
+        <item>15秒</item>
+        <item>30秒</item>   
+    </string-array>
+    <string-array name="entryvalues_media">
+        <item>image</item>
+        <item>video</item>
+        <item>music</item> 
+    </string-array>
+    <string-array name="entryvalues_slidetime">
+        <item>5</item>
+        <item>7</item>
+        <item>10</item> 
+        <item>15</item>
+        <item>30</item>   
+    </string-array>
+    <!-- From: file:/Users/zhangxitao/AndroidstudioProjects/DroidDLNA/app/src/main/res/values-zh-rCN/strings.xml -->
+    <eat-comment/>
+    <string name="OK">OK</string>
+    <!-- From: file:/Users/zhangxitao/AndroidstudioProjects/DroidDLNA/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"转到主屏幕"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"转到上一层级"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多选项"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"选择应用"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查询"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜索查询"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查询"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"语音搜索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"分享方式"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"通过%s分享"</string>
+    <!-- From: file:/Users/zhangxitao/AndroidstudioProjects/DroidDLNA/app/src/main/res/values-zh-rCN/strings.xml -->
+    <eat-comment/>
+    <string name="about_app">版本2.0.0</string>
+    <string name="about_brief">DroidDLNA能够让多媒体分享变得更加便利，通过无线网手机和电视/电脑/等实现多媒体的共享，轻松互相浏览/播放/控制各设备存储中的音乐、视频以及图片等.\nDroidDLNA具备如下功能：\n1支持DLNA所有协议(包括：DMP,DMS,DMC,DMR)，集DLNA播放器、DLNA服务器、DLNA客户端和DLNA播放控制器一体，功能丰富；\n 2 通过wifi和以太网自动扫描UPnP/DLNA媒体服务获得共享资源；\n 3 可以共享设备上多媒体资源给别人，也可以使用其他DLNA设备的多媒体资源；\n 4 可以浏览，播放，控制多媒体资源，支持图片和视频缩略图显示。</string>
+    <string name="appName">DroidDLNA</string>
+    <string name="conn_err">建立连接失败</string>
+    <string name="content">内容</string>
+    <string name="control">控制台</string>
+    <string name="create_demo_failed">Creating of device failed, check the log!</string>
+    <string name="decoding_error">图片解码错误</string>
+    <string name="device">设备</string>
+    <string name="deviceDetails">设备详情</string>
+    <string name="deviceDetailsNotYetAvailable">Device details are being discovered, please wait.</string>
+    <string name="device_local">DroidDLNA Media Server</string>
+    <string name="device_msg">媒体内容服务</string>
+    <string name="device_name">设备名称</string>
+    <string name="dialog_wait_msg">正在加载中…</string>
+    <string name="disablingDebugLogging">Disabling debug logging…</string>
+    <string name="disablingRouter">Disabling network router…</string>
+    <string name="disabling_debug_logging">Disabling debug logging…</string>
+    <string name="dmr_msg">播放器</string>
+    <string name="dms_name">媒体服务器名称</string>
+    <string name="dms_name_breif">本地媒体服务器名称，,你可以在其他设备上查找它</string>
+    <string name="enablingDebugLogging">Enabling debug logging…</string>
+    <string name="enablingRouter">Enabling network router…</string>
+    <string name="enabling_debug_logging">Enabling debug logging…</string>
+    <string name="errorSwitchingRouter">Error switching router: </string>
+    <string name="exit">再按一次退出程序</string>
+    <string name="get_data_err">获取数据失败，请重新选择文件</string>
+    <string name="info_download_image">图片已经下载到</string>
+    <string name="info_download_image_error">图片保存失败</string>
+    <string name="info_first_image">到第一张图片了</string>
+    <string name="info_image_slide_pause">暂停图片幻灯片放映</string>
+    <string name="info_image_slide_start">放映图片幻灯片开始</string>
+    <string name="info_last_image">到最后一张图片了</string>
+    <string name="info_share_image">分享图片</string>
+    <string name="io_error">IO错误</string>
+    <string name="ip_get_fail">获取IP地址失败</string>
+    <string name="media_init_time">00:00:00</string>
+    <string name="media_name_brief">媒体简介</string>
+    <string name="media_name_def">媒体名称</string>
+    <string name="media_play_err">播放失败</string>
+    <string name="menu_exit">退出</string>
+    <string name="min_voc">已经是最小声音了</string>
+    <string name="net_setting">网络设置</string>
+    <string name="net_setting_breif">设置和管理无线网络接入点</string>
+    <string name="network_denied">网络太不给力了</string>
+    <string name="not_select_dev">请选择设备</string>
+    <string name="off_msg">关</string>
+    <string name="oom_error">图片过大 加载失败</string>
+    <string name="open_msg">开</string>
+    <string name="player">媒体播放器</string>
+    <string name="player_bt_return">返回</string>
+    <string name="player_exit">再按一次返回键退出播放器</string>
+    <string name="player_name">播放器名称</string>
+    <string name="player_name_breif">本地播放器名称,你可以在其他设备上查找它</string>
+    <string name="player_name_local">DroidDLNA Local Render</string>
+    <string name="player_off">关闭本地播放器服务,其他设备不可以通过DLNA/Upnp协议推送媒体文件到本机</string>
+    <string name="player_on">开启本地播放器服务,其他设备可以通过DLNA/Upnp协议推送媒体文件到本机</string>
+    <string name="player_pause_msg">暂停</string>
+    <string name="player_play_msg">播放</string>
+    <string name="registering_demo_device">Registering UPnP device…</string>
+    <string name="sear_dmr">Find DMR</string>
+    <string name="searchLAN">搜索网络</string>
+    <string name="search_lan">搜索设备</string>
+    <string name="searchingLAN">正在搜索网络中的Upnp设备…</string>
+    <string name="searching_lan">正在搜索网络中的Upnp设备…</string>
+    <string name="setting">设置</string>
+    <string name="setting_msg">设置</string>
+    <string name="share_content">共享媒体内容</string>
+    <string name="share_content_off">停止共享内容，其他设备不可以通过DLNA/Upnp协议查看本机媒体文件</string>
+    <string name="share_content_on">启动共享内容，其他设备可以通过DLNA/Upnp协议查看本机媒体文件</string>
+    <string name="share_content_setting">共享媒体内容设置</string>
+    <string name="share_content_setting_breif">与家人朋友共享您喜欢的内容</string>
+    <string name="slideshow">幻灯片</string>
+    <string name="slideshow_breif">设置播放幻灯片的间隔时间</string>
+    <string name="switchRouter">切换网络路由</string>
+    <string name="thumbnails">缩放图标</string>
+    <string name="thumbnails_breif">缩放图标隐藏</string>
+    <string name="toggleDebugLogging">切换debug logging</string>
+    <string name="toggle_debug_logging">Toggle debug logging</string>
+    <string name="unknown_error">未知错误</string>
+</resources>

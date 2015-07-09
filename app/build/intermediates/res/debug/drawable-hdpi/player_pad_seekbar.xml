@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/progress">
+        <clip android:drawable="@drawable/player_pad_processbar_bg" />
+    </item>
+    <item android:id="@android:id/background" android:drawable="@drawable/player_pad_seekbar_bg" />
+</layer-list>
+<!-- From: file:/Users/zhangxitao/AndroidstudioProjects/DroidDLNA/app/src/main/res/drawable-hdpi/player_pad_seekbar.xml -->

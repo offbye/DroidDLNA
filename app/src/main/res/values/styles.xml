@@ -1,0 +1,43 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:background">@color/bg_white</item>
+    </style>
+
+    <style name="MMTabButton">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/bg_checkbox_menus</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:paddingBottom">2.0dip</item>
+        <item name="android:paddingTop">7.0dip</item>
+    </style>
+
+    <style name="Preference" parent="AppBaseTheme">
+        <item name="android:background">@color/bg_white</item>
+        <item name="android:textColorPrimaryInverse">@color/white</item> <!-- preference标题文本颜色 -->
+        <item name="android:windowBackground">@color/bg_white</item> <!-- 窗体背景 -->
+        <item name="android:windowTitleBackgroundStyle">@color/bg_white</item> <!-- 窗体标题背景风格 -->
+        <item name="android:listViewStyle">@color/bg_white</item> <!-- preference是一个LISTVIEW，这里设置该风格 -->
+        <item name="android:textColorPrimary">@color/white</item> <!-- preference一级文本颜色 -->
+        <item name="android:textColorSecondary">@color/white</item> <!-- preference二级文本颜色 -->
+    </style>
+
+</resources>

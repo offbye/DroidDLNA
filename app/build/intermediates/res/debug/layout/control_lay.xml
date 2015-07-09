@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_wx_middle"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/media_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="8dip"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/media_name_def"
+        android:textColor="@color/text_black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/media_tv_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/media_tv_title"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="3dip"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/media_name_brief"
+        android:textColor="@color/text_black"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/media_lay_voc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dip" >
+
+        <ImageView
+            android:id="@+id/media_iv_voc_plus"
+            android:layout_width="40dip"
+            android:layout_height="30dip"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dip"
+            android:contentDescription="@null"
+            android:scaleType="center"
+            android:src="@drawable/icon_voc_up_selector" />
+
+        <ImageView
+            android:id="@+id/media_iv_voc_mute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:contentDescription="@null" />
+
+        <ImageView
+            android:id="@+id/media_iv_voc_cut"
+            android:layout_width="40dip"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dip"
+            android:contentDescription="@null"
+            android:scaleType="center"
+            android:src="@drawable/icon_voc_down_selector" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/media_play_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/media_lay_voc"
+        android:layout_marginBottom="15dip" >
+
+        <TextView
+            android:id="@+id/media_tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dip"
+            android:text="@string/media_init_time"
+            android:textColor="@color/text_black"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/media_iv_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:id="@+id/media_tv_total_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dip"
+            android:text="@string/media_init_time"
+            android:textColor="@color/text_black"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <SeekBar
+        android:id="@+id/media_seekBar"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/media_play_lay"
+        android:layout_centerHorizontal="true"
+        android:maxHeight="0.5dp"
+        android:minHeight="0.5dp"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:progressDrawable="@drawable/seekbar_style"
+        android:thumb="@drawable/thumb" />
+
+    <RelativeLayout
+        android:id="@+id/media_lay_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/media_seekBar"
+        android:layout_below="@id/media_tv_author"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="10dip" >
+
+        <ImageView
+            android:id="@+id/media_iv_thumb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon_default" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/Users/zhangxitao/AndroidstudioProjects/DroidDLNA/app/src/main/res/layout/control_lay.xml -->

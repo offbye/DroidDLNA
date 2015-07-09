@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android" 
+android:fromXDelta="0" 
+android:toXDelta="10" 
+android:duration="1000" 
+android:interpolator="@anim/cycle" />
+<!-- From: file:/Users/zhangxitao/AndroidstudioProjects/DroidDLNA/app/src/main/res/anim/shake_x.xml -->

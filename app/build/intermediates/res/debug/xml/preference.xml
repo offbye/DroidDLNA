@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory>
+        <CheckBoxPreference
+            android:enabled="true"
+            android:key="dms_status"
+            android:summaryOff="@string/share_content_off"
+            android:summaryOn="@string/share_content_on"
+            android:title="@string/share_content" />
+
+<!--    <ListPreference
+            android:entries="@array/entries_media"
+            android:entryValues="@array/entryvalues_media"
+            android:key="dms_share_content"
+            android:summary="@string/share_content_setting_breif"
+            android:title="@string/share_content_setting" /> -->    
+
+        <EditTextPreference
+            android:defaultValue="@string/device_local"
+            android:key="dms_name"
+            android:summary="@string/dms_name_breif"
+            android:title="@string/dms_name" />
+
+        <CheckBoxPreference
+            android:enabled="true"
+            android:key="dmr_status"
+            android:summaryOff="@string/player_off"
+            android:summaryOn="@string/player_on"
+            android:title="@string/player" />
+
+        <EditTextPreference
+            android:defaultValue="@string/player_name_local"
+            android:key="player_name"
+            android:summary="@string/player_name_breif"
+            android:title="@string/player_name" />
+
+        <Preference
+            android:key="net_setting"
+            android:summary="@string/net_setting_breif"
+            android:title="@string/net_setting" >
+            <intent android:action="android.settings.WIFI_SETTINGS" />
+        </Preference>
+
+        <ListPreference
+            android:defaultValue="5"
+            android:entries="@array/entries_slidetime"
+            android:entryValues="@array/entryvalues_slidetime"
+            android:key="image_slide_time"
+            android:summary="@string/slideshow_breif"
+            android:title="@string/slideshow" />
+
+        <Preference
+            android:key="about"
+            android:summary="@string/about_app"
+            android:title="@string/appName" />
+    </PreferenceCategory>
+
+</PreferenceScreen><!-- From: file:/Users/zhangxitao/AndroidstudioProjects/DroidDLNA/app/src/main/res/xml/preference.xml -->

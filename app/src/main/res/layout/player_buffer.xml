@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/buffer_info"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right|top"
+    android:orientation="vertical" >
+
+    <ProgressBar
+        android:id="@+id/player_prepairing"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/prepare_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textSize="10sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prepare_progress"
+        android:layout_toRightOf="@id/player_prepairing"
+        android:gravity="center"
+        android:textSize="10sp"
+        android:textStyle="bold" >
+    </TextView>
+
+</RelativeLayout>

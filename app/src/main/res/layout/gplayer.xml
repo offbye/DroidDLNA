@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <SurfaceView
+            android:id="@+id/gplayer_surfaceview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </SurfaceView>
+    </FrameLayout>
+
+    <include layout="@layout/player_buffer" />
+
+    <include layout="@layout/player_phone_popup_top" />
+
+    <include layout="@layout/player_phone_popup_bottom" />
+
+</FrameLayout>
