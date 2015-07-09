@@ -21,7 +21,8 @@
         android:name="com.zxt.dlna.application.BaseApplication"
         android:icon="@drawable/ic_launcher"
         android:label="@string/appName"
-        android:allowBackup="false">"
+        android:allowBackup="false"
+        android:theme="@style/Theme.Design">
 
         <activity
             android:name="com.zxt.dlna.activity.StartActivity"

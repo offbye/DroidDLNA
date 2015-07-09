@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="netConnectedError">网络错误</string>
+    <string name="login_button_text">登录</string>
+    <string name="login_input_hint_username">请输入用户名</string>
+    <string name="login_input_hint_pwd">请输入密码</string>
+</resources>

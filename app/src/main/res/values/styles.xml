@@ -1,21 +1,23 @@
 <resources>
 
-    <!--
-        Base application theme, dependent on API level. This theme is replaced
-        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
-    -->
-    <style name="AppBaseTheme" parent="android:Theme.Light">
-        <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        -->
+    <style name="Theme.Design" parent="Base.Theme.Design">
     </style>
 
-    <!-- Application theme. -->
-    <style name="AppTheme" parent="AppBaseTheme">
-        <item name="android:background">@color/bg_white</item>
+    <style name="Base.Theme.Design" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#ffdedbd4</item>
+        <item name="colorPrimaryDark">#ff1cbb2b</item>
+        <item name="colorAccent">#ffccff10</item>
+        <item name="android:windowNoTitle">true</item>
     </style>
+
+    <style name="Widget.CardContent" parent="android:Widget">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
 
     <style name="MMTabButton">
         <item name="android:textSize">12.0dip</item>
@@ -30,7 +32,7 @@
         <item name="android:paddingTop">7.0dip</item>
     </style>
 
-    <style name="Preference" parent="AppBaseTheme">
+    <style name="Preference" parent="Theme.Design">
         <item name="android:background">@color/bg_white</item>
         <item name="android:textColorPrimaryInverse">@color/white</item> <!-- preference标题文本颜色 -->
         <item name="android:windowBackground">@color/bg_white</item> <!-- 窗体背景 -->

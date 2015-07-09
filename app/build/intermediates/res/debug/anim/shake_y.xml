@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<translate xmlns:android="http://schemas.android.com/apk/res/android"
-    android:duration="1000"
-    android:fromYDelta="0"
-    android:interpolator="@anim/cycle"
-    android:toYDelta="10" >
-
-</translate><!-- From: file:/Users/zhangxitao/AndroidstudioProjects/DroidDLNA/app/src/main/res/anim/shake_y.xml -->

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item android:drawable="@drawable/icon_voc_down_click" android:state_pressed="true"/>
-    <item android:drawable="@drawable/icon_voc_down" android:state_pressed="false"/>
-
-</selector><!-- From: file:/Users/zhangxitao/AndroidstudioProjects/DroidDLNA/app/src/main/res/drawable-hdpi/icon_voc_down_selector.xml -->

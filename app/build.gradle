@@ -20,6 +20,9 @@ android {
 
 dependencies {
     compile 'com.android.support:appcompat-v7:22.2.0'
+    compile 'com.android.support:design:22.2.0'
+    compile 'com.android.support:cardview-v7:22.2.0'
+    compile 'com.android.support:recyclerview-v7:22.2.0'
     compile files('libs/cdi-api.jar')
     compile files('libs/http-2.2.1.jar')
     compile files('libs/httpclient-4.2.2.jar')

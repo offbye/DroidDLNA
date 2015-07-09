@@ -15,4 +15,5 @@ gradle/
 .idea/
 .DS_Store
 bin/
+**/build/
 

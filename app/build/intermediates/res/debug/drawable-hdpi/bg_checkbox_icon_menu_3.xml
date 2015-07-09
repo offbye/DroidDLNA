@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?> 
-<selector xmlns:android="http://schemas.android.com/apk/res/android"> 
-    <item 
-    android:state_checked="true" 
-    android:drawable="@drawable/menu_icon_3_pressed" /> 
-    <item 
-    android:state_checked="false" 
-    android:drawable="@drawable/menu_icon_3_normal" /> 
-</selector> <!-- From: file:/Users/zhangxitao/AndroidstudioProjects/DroidDLNA/app/src/main/res/drawable-hdpi/bg_checkbox_icon_menu_3.xml -->
