@@ -111,31 +111,10 @@ public class ImageUtil {
 	@SuppressLint("NewApi")
 	public static Bitmap getThumbnailForVideo(String videoAbsPath) {
 		Bitmap bitmap = null;
-		if (Integer.valueOf(android.os.Build.VERSION.SDK) < 8) {
-			android.media.MediaMetadataRetriever retriever = new android.media.MediaMetadataRetriever();
-			try {
-				retriever
-						.setMode(android.media.MediaMetadataRetriever.MODE_CAPTURE_FRAME_ONLY);
-				retriever.setDataSource(videoAbsPath);
-				bitmap = retriever.captureFrame();
-			} catch (IllegalArgumentException ex) {
-				// Assume this is a corrupt video file
-			} catch (RuntimeException ex) {
-				// Assume this is a corrupt video file.
-			} finally {
-				try {
-					retriever.release();
-				} catch (RuntimeException ex) {
-					// Ignore failures while cleaning up.
-				}
-			}
-		} else {
-			try {
-				bitmap = ThumbnailUtils.createVideoThumbnail(videoAbsPath,
-						Thumbnails.MINI_KIND);
-			} catch (Exception e) {
-				// It will not get here.
-			}
+		try {
+			bitmap = ThumbnailUtils.createVideoThumbnail(videoAbsPath, Thumbnails.MINI_KIND);
+		} catch (Exception e) {
+			// It will not get here.
 		}
 		return bitmap;
 	}
